@@ -1,0 +1,78 @@
+version: '3.8'
+
+services:
+  # Endee Vector Database
+  endee:
+    image: endeeio/endee:latest
+    container_name: endee-db
+    ports:
+      - "6379:6379"
+    environment:
+      - LOG_LEVEL=info
+    volumes:
+      - endee_data:/data
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:6379/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - app-network
+
+  # FastAPI Backend
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: backend
+    container_name: endee-backend
+    ports:
+      - "8000:8000"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - ENDEE_URL=http://endee:6379
+      - ENDEE_DB_NAME=knowledge_base
+      - HOST=0.0.0.0
+      - PORT=8000
+      - API_URL=http://backend:8000
+      - ENV=production
+    depends_on:
+      endee:
+        condition: service_healthy
+    volumes:
+      - ./logs:/app/logs
+      - ./data:/app/data
+      - ./uploads:/app/uploads
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - app-network
+    command: python -m backend_v2.main
+
+  # Streamlit Frontend
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    container_name: endee-frontend
+    ports:
+      - "8501:8501"
+    environment:
+      - API_URL=http://backend:8000
+    depends_on:
+      - backend
+    volumes:
+      - ./logs:/app/logs
+    networks:
+      - app-network
+    command: streamlit run frontend_v2/app.py --server.port=8501 --server.address=0.0.0.0
+
+volumes:
+  endee_data:
+
+networks:
+  app-network:
+    driver: bridge
