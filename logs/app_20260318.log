@@ -1,0 +1,405 @@
+2026-03-18 12:47:30,866 - endee_assistant.main - INFO - Starting up Endee AI Knowledge Assistant
+2026-03-18 12:47:30,867 - endee_assistant.endee_client - INFO - Initialized Endee client with base URL: http://localhost:9000
+2026-03-18 12:47:33,255 - endee_assistant.endee_client - ERROR - Health check failed: All connection attempts failed
+2026-03-18 12:47:58,622 - endee_assistant.main - INFO - Chat request: Hello, who are you?
+2026-03-18 12:47:58,623 - endee_assistant.main - INFO - Attempting OpenAI...
+2026-03-18 12:48:07,503 - endee_assistant.main - WARNING - OpenAI failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}, trying Gemini...
+2026-03-18 12:48:07,505 - endee_assistant.main - INFO - Attempting Gemini...
+2026-03-18 12:48:07,506 - endee_assistant.gemini_client - INFO - Gemini client initialized successfully
+2026-03-18 12:48:08,497 - endee_assistant.gemini_client - ERROR - Error generating with Gemini: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-03-18 12:48:08,498 - endee_assistant.main - ERROR - Gemini also failed: Gemini did not return a response
+2026-03-18 12:48:41,288 - endee_assistant.main - INFO - Starting up Endee AI Knowledge Assistant
+2026-03-18 12:48:41,289 - endee_assistant.endee_client - INFO - Initialized Endee client with base URL: http://localhost:9000
+2026-03-18 12:48:43,654 - endee_assistant.endee_client - ERROR - Health check failed: All connection attempts failed
+2026-03-18 12:48:43,684 - endee_assistant.main - INFO - Chat request: hi
+2026-03-18 12:48:43,685 - endee_assistant.main - INFO - Attempting OpenAI...
+2026-03-18 12:48:50,939 - endee_assistant.main - WARNING - OpenAI failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}, trying Gemini...
+2026-03-18 12:48:50,939 - endee_assistant.main - INFO - Attempting Gemini...
+2026-03-18 12:48:50,941 - endee_assistant.gemini_client - INFO - Gemini client initialized successfully
+2026-03-18 12:48:52,294 - endee_assistant.gemini_client - ERROR - Error generating with Gemini: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-03-18 12:48:52,295 - endee_assistant.main - ERROR - Gemini also failed: Gemini did not return a response
+2026-03-18 12:49:21,717 - endee_assistant.main - INFO - Starting up Endee AI Knowledge Assistant
+2026-03-18 12:49:21,718 - endee_assistant.endee_client - INFO - Initialized Endee client with base URL: http://localhost:9000
+2026-03-18 12:49:24,062 - endee_assistant.endee_client - ERROR - Health check failed: All connection attempts failed
+2026-03-18 12:52:16,006 - endee_assistant.main - INFO - Starting up Endee AI Knowledge Assistant
+2026-03-18 12:52:16,007 - endee_assistant.endee_client - INFO - Initialized Endee client with base URL: http://localhost:9000
+2026-03-18 12:52:18,351 - endee_assistant.endee_client - ERROR - Health check failed: All connection attempts failed
+2026-03-18 12:53:08,248 - endee_assistant.main - INFO - Starting up Endee AI Knowledge Assistant
+2026-03-18 12:53:08,249 - endee_assistant.endee_client - INFO - Initialized Endee client with base URL: http://localhost:9000
+2026-03-18 12:53:10,603 - endee_assistant.endee_client - ERROR - Health check failed: All connection attempts failed
+2026-03-18 12:58:34,595 - endee_assistant.main - INFO - Starting up Endee AI Knowledge Assistant
+2026-03-18 12:58:34,597 - endee_assistant.endee_client - INFO - Initialized Endee client with base URL: http://localhost:9000
+2026-03-18 12:58:37,011 - endee_assistant.endee_client - ERROR - Health check failed: All connection attempts failed
+2026-03-18 12:58:37,473 - endee_assistant.main - INFO - Chat request: test
+2026-03-18 12:58:37,473 - endee_assistant.main - INFO - Attempting OpenAI...
+2026-03-18 12:58:45,779 - endee_assistant.main - WARNING - OpenAI failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}, trying Gemini...
+2026-03-18 12:58:45,781 - endee_assistant.main - INFO - Attempting Gemini...
+2026-03-18 12:58:45,782 - endee_assistant.gemini_client - INFO - Gemini client initialized successfully
+2026-03-18 12:58:46,326 - endee_assistant.gemini_client - ERROR - Error generating with Gemini: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-03-18 12:58:46,327 - endee_assistant.main - ERROR - Gemini also failed: Gemini did not return a response
+2026-03-18 12:58:48,715 - endee_assistant.endee_client - ERROR - Health check failed: All connection attempts failed
+2026-03-18 12:58:48,722 - endee_assistant.endee_client - ERROR - Health check failed: All connection attempts failed
+2026-03-18 12:58:48,726 - endee_assistant.endee_client - ERROR - Health check failed: All connection attempts failed
+2026-03-18 13:00:34,529 - endee_assistant.main - INFO - Starting up Endee AI Knowledge Assistant
+2026-03-18 13:00:34,530 - endee_assistant.endee_client - INFO - Initialized Endee client with base URL: http://localhost:9000
+2026-03-18 13:00:36,867 - endee_assistant.endee_client - ERROR - Health check failed: All connection attempts failed
+2026-03-18 13:01:25,261 - endee_assistant.endee_client - ERROR - Health check failed: All connection attempts failed
+2026-03-18 13:01:29,693 - endee_assistant.endee_client - ERROR - Health check failed: All connection attempts failed
+2026-03-18 13:03:08,072 - endee_assistant.main - INFO - Starting up Endee AI Knowledge Assistant
+2026-03-18 13:03:08,073 - endee_assistant.endee_client - INFO - Initialized Endee client with base URL: http://localhost:9000
+2026-03-18 13:03:10,003 - endee_assistant.main - INFO - Starting up Endee AI Knowledge Assistant
+2026-03-18 13:03:10,004 - endee_assistant.endee_client - INFO - Initialized Endee client with base URL: http://localhost:9000
+2026-03-18 13:03:10,434 - endee_assistant.endee_client - ERROR - Health check failed: All connection attempts failed
+2026-03-18 13:03:12,347 - endee_assistant.endee_client - ERROR - Health check failed: All connection attempts failed
+2026-03-18 13:03:12,798 - endee_assistant.endee_client - ERROR - Health check failed: All connection attempts failed
+2026-03-18 13:04:00,986 - endee_assistant.main - INFO - Starting up Endee AI Knowledge Assistant
+2026-03-18 13:04:00,986 - endee_assistant.endee_client - INFO - Initialized Endee client with base URL: http://localhost:9000
+2026-03-18 13:04:03,335 - endee_assistant.endee_client - ERROR - Health check failed: All connection attempts failed
+2026-03-18 13:04:04,489 - endee_assistant.main - INFO - Starting up Endee AI Knowledge Assistant
+2026-03-18 13:04:04,490 - endee_assistant.endee_client - INFO - Initialized Endee client with base URL: http://localhost:9000
+2026-03-18 13:04:06,859 - endee_assistant.endee_client - ERROR - Health check failed: All connection attempts failed
+2026-03-18 13:04:28,529 - endee_assistant.endee_client - ERROR - Health check failed: All connection attempts failed
+2026-03-18 13:04:48,104 - endee_assistant.endee_client - ERROR - Health check failed: All connection attempts failed
+2026-03-18 13:04:59,741 - endee_assistant.endee_client - ERROR - Health check failed: All connection attempts failed
+2026-03-18 13:05:01,798 - endee_assistant.main - INFO - Chat request: Hello, can you help me with AI?
+2026-03-18 13:05:01,799 - endee_assistant.main - INFO - Attempting OpenAI...
+2026-03-18 13:05:08,351 - endee_assistant.main - WARNING - OpenAI failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}, trying Gemini...
+2026-03-18 13:05:08,352 - endee_assistant.main - INFO - Attempting Gemini...
+2026-03-18 13:05:08,353 - endee_assistant.gemini_client - INFO - Gemini client initialized successfully
+2026-03-18 13:05:08,976 - endee_assistant.gemini_client - ERROR - Error generating with Gemini: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-03-18 13:05:08,977 - endee_assistant.main - ERROR - Gemini also failed: Gemini did not return a response
+2026-03-18 13:06:38,413 - endee_assistant.main - INFO - Starting up Endee AI Knowledge Assistant
+2026-03-18 13:06:38,414 - endee_assistant.endee_client - INFO - Initialized Endee client with base URL: http://localhost:9000
+2026-03-18 13:06:40,761 - endee_assistant.endee_client - ERROR - Health check failed: All connection attempts failed
+2026-03-18 13:07:27,444 - endee_assistant.main - INFO - Starting up Endee AI Knowledge Assistant
+2026-03-18 13:07:27,445 - endee_assistant.endee_client - INFO - Initialized Endee client with base URL: http://localhost:9000
+2026-03-18 13:07:29,773 - endee_assistant.endee_client - ERROR - Health check failed: All connection attempts failed
+2026-03-18 13:08:10,530 - endee_assistant.main - INFO - Starting up Endee AI Knowledge Assistant
+2026-03-18 13:08:10,531 - endee_assistant.endee_client - INFO - Initialized Endee client with base URL: http://localhost:9000
+2026-03-18 13:08:12,873 - endee_assistant.endee_client - ERROR - Health check failed: All connection attempts failed
+2026-03-18 13:08:28,264 - endee_assistant.main - INFO - Starting up Endee AI Knowledge Assistant
+2026-03-18 13:08:28,264 - endee_assistant.endee_client - INFO - Initialized Endee client with base URL: http://localhost:9000
+2026-03-18 13:08:30,607 - endee_assistant.endee_client - ERROR - Health check failed: All connection attempts failed
+2026-03-18 13:09:00,716 - endee_assistant.main - INFO - Starting up Endee AI Knowledge Assistant
+2026-03-18 13:09:00,717 - endee_assistant.endee_client - INFO - Initialized Endee client with base URL: http://localhost:9000
+2026-03-18 13:09:01,656 - endee_assistant.main - INFO - Starting up Endee AI Knowledge Assistant
+2026-03-18 13:09:01,656 - endee_assistant.endee_client - INFO - Initialized Endee client with base URL: http://localhost:9000
+2026-03-18 13:09:03,057 - endee_assistant.endee_client - ERROR - Health check failed: All connection attempts failed
+2026-03-18 13:09:03,979 - endee_assistant.endee_client - ERROR - Health check failed: All connection attempts failed
+2026-03-18 13:09:22,862 - endee_assistant.endee_client - ERROR - Health check failed: All connection attempts failed
+2026-03-18 13:11:42,374 - endee_assistant.main - INFO - Starting up Endee AI Knowledge Assistant
+2026-03-18 13:11:42,375 - endee_assistant.endee_client - INFO - Initialized Endee client with base URL: http://localhost:9000
+2026-03-18 13:11:44,728 - endee_assistant.endee_client - ERROR - Health check failed: All connection attempts failed
+2026-03-18 13:12:01,705 - endee_assistant.main - INFO - Starting up Endee AI Knowledge Assistant
+2026-03-18 13:12:01,706 - endee_assistant.endee_client - INFO - Initialized Endee client with base URL: http://localhost:9000
+2026-03-18 13:12:04,043 - endee_assistant.endee_client - ERROR - Health check failed: All connection attempts failed
+2026-03-18 13:12:04,067 - endee_assistant.main - INFO - Chat request: Hello!
+2026-03-18 13:12:04,068 - endee_assistant.main - INFO - Attempting OpenAI...
+2026-03-18 13:12:06,277 - endee_assistant.main - INFO - Starting up Endee AI Knowledge Assistant
+2026-03-18 13:12:06,277 - endee_assistant.endee_client - INFO - Initialized Endee client with base URL: http://localhost:6379
+2026-03-18 13:12:08,617 - endee_assistant.endee_client - ERROR - Health check failed: All connection attempts failed
+2026-03-18 13:12:09,644 - endee_assistant.main - WARNING - OpenAI failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}, trying Gemini...
+2026-03-18 13:12:09,645 - endee_assistant.main - INFO - Attempting Gemini...
+2026-03-18 13:12:09,646 - endee_assistant.gemini_client - INFO - Gemini client initialized successfully with gemini-2.0-flash
+2026-03-18 13:12:10,072 - endee_assistant.gemini_client - ERROR - Error generating with Gemini: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+Please retry in 52.001882208s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 52
+}
+]
+2026-03-18 13:12:10,074 - endee_assistant.main - ERROR - Gemini also failed: Gemini did not return a response
+2026-03-18 13:12:10,076 - endee_assistant.main - INFO - Chat request: Hello, can you help me with AI?
+2026-03-18 13:12:10,077 - endee_assistant.main - INFO - Attempting OpenAI...
+2026-03-18 13:12:12,789 - endee_assistant.main - WARNING - OpenAI failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}, trying Gemini...
+2026-03-18 13:12:12,789 - endee_assistant.main - INFO - Attempting Gemini...
+2026-03-18 13:12:12,791 - endee_assistant.gemini_client - INFO - Gemini client initialized successfully with gemini-2.0-flash
+2026-03-18 13:12:13,398 - endee_assistant.gemini_client - ERROR - Error generating with Gemini: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+Please retry in 48.669118498s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 48
+}
+]
+2026-03-18 13:12:13,400 - endee_assistant.main - ERROR - Gemini also failed: Gemini did not return a response
+2026-03-18 13:12:23,081 - endee_assistant.main - INFO - Chat request: Hello, can you help me with AI?
+2026-03-18 13:12:23,082 - endee_assistant.main - INFO - Attempting OpenAI...
+2026-03-18 13:12:25,905 - endee_assistant.main - WARNING - OpenAI failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}, trying Gemini...
+2026-03-18 13:12:25,905 - endee_assistant.main - INFO - Attempting Gemini...
+2026-03-18 13:12:25,906 - endee_assistant.gemini_client - INFO - Gemini client initialized successfully with gemini-2.0-flash
+2026-03-18 13:12:26,242 - endee_assistant.gemini_client - ERROR - Error generating with Gemini: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+Please retry in 35.825418071s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 35
+}
+]
+2026-03-18 13:12:26,243 - endee_assistant.main - ERROR - Gemini also failed: Gemini did not return a response
+2026-03-18 13:13:29,510 - endee_assistant.endee_client - ERROR - Health check failed: All connection attempts failed
+2026-03-18 13:13:33,885 - endee_assistant.endee_client - ERROR - Health check failed: All connection attempts failed
+2026-03-18 13:13:38,341 - endee_assistant.endee_client - ERROR - Health check failed: All connection attempts failed
+2026-03-18 13:13:42,768 - endee_assistant.endee_client - ERROR - Health check failed: All connection attempts failed
+2026-03-18 13:15:30,764 - endee_assistant.endee_client - ERROR - Health check failed: All connection attempts failed
+2026-03-18 13:16:47,871 - endee_assistant.main - INFO - Starting up Endee AI Knowledge Assistant
+2026-03-18 13:16:47,872 - endee_assistant.endee_client - INFO - Initialized Endee client with base URL: http://localhost:9000
+2026-03-18 13:16:50,215 - endee_assistant.endee_client - ERROR - Health check failed: All connection attempts failed
+2026-03-18 13:17:05,944 - endee_assistant.main - INFO - Starting up Endee AI Knowledge Assistant
+2026-03-18 13:17:05,945 - endee_assistant.endee_client - INFO - Initialized Endee client with base URL: http://localhost:9000
+2026-03-18 13:17:08,311 - endee_assistant.endee_client - ERROR - Health check failed: All connection attempts failed
+2026-03-18 13:17:16,104 - endee_assistant.main - INFO - Starting up Endee AI Knowledge Assistant
+2026-03-18 13:17:16,105 - endee_assistant.endee_client - INFO - Initialized Endee client with base URL: http://localhost:6379
+2026-03-18 13:17:18,450 - endee_assistant.endee_client - ERROR - Health check failed: All connection attempts failed
+2026-03-18 13:17:22,428 - endee_assistant.main - INFO - Starting up Endee AI Knowledge Assistant
+2026-03-18 13:17:22,429 - endee_assistant.endee_client - INFO - Initialized Endee client with base URL: http://localhost:9000
+2026-03-18 13:17:24,768 - endee_assistant.endee_client - ERROR - Health check failed: All connection attempts failed
+2026-03-18 13:19:20,114 - endee_assistant.main - INFO - Starting up Endee AI Knowledge Assistant
+2026-03-18 13:19:20,114 - endee_assistant.endee_client - INFO - Initialized Endee client with base URL: http://localhost:9000
+2026-03-18 13:19:22,453 - endee_assistant.endee_client - ERROR - Health check failed: All connection attempts failed
+2026-03-18 13:19:30,534 - endee_assistant.main - INFO - Starting up Endee AI Knowledge Assistant
+2026-03-18 13:19:30,535 - endee_assistant.endee_client - INFO - Initialized Endee client with base URL: http://localhost:6379
+2026-03-18 13:19:32,885 - endee_assistant.endee_client - ERROR - Health check failed: All connection attempts failed
+2026-03-18 13:21:27,723 - endee_assistant.main - INFO - Starting up Endee AI Knowledge Assistant
+2026-03-18 13:21:27,723 - endee_assistant.endee_client - INFO - Initialized Endee client with base URL: http://localhost:9000
+2026-03-18 13:21:28,172 - endee_assistant.main - INFO - Chat request: hello
+2026-03-18 13:21:28,172 - endee_assistant.main - INFO - Attempting OpenAI...
+2026-03-18 13:21:30,066 - endee_assistant.endee_client - ERROR - Health check failed: All connection attempts failed
+2026-03-18 13:21:33,921 - endee_assistant.main - WARNING - OpenAI failed (Error code: 429 - {'error': {'message': 'You excee), trying Gemini...
+2026-03-18 13:21:33,921 - endee_assistant.main - INFO - Attempting Gemini...
+2026-03-18 13:21:33,921 - endee_assistant.gemini_client - INFO - Gemini client initialized successfully with gemini-2.0-flash
+2026-03-18 13:21:34,687 - endee_assistant.gemini_client - ERROR - Error generating with Gemini: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+Please retry in 27.712273071s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 27
+}
+]
+2026-03-18 13:21:34,688 - endee_assistant.main - ERROR - Gemini failed (Gemini returned empty response), trying Demo Mode...
+2026-03-18 13:22:07,469 - endee_assistant.main - INFO - Starting up Endee AI Knowledge Assistant
+2026-03-18 13:22:07,469 - endee_assistant.endee_client - INFO - Initialized Endee client with base URL: http://localhost:9000
+2026-03-18 13:22:09,814 - endee_assistant.endee_client - ERROR - Health check failed: All connection attempts failed
+2026-03-18 13:22:28,861 - endee_assistant.main - INFO - Starting up Endee AI Knowledge Assistant
+2026-03-18 13:22:28,862 - endee_assistant.endee_client - INFO - Initialized Endee client with base URL: http://localhost:9000
+2026-03-18 13:22:31,199 - endee_assistant.endee_client - ERROR - Health check failed: All connection attempts failed
+2026-03-18 13:25:19,709 - endee_assistant.main - INFO - Starting up Endee AI Knowledge Assistant
+2026-03-18 13:25:19,709 - endee_assistant.endee_client - INFO - Initialized Endee client with base URL: http://localhost:6379
+2026-03-18 13:25:22,048 - endee_assistant.endee_client - ERROR - Health check failed: All connection attempts failed
+2026-03-18 13:26:30,244 - endee_assistant.main - INFO - Chat request: hi
+2026-03-18 13:26:30,244 - endee_assistant.main - INFO - Attempting OpenAI...
+2026-03-18 13:26:35,803 - endee_assistant.main - WARNING - OpenAI failed (Error code: 429 - {'error': {'message': 'You excee), trying Gemini...
+2026-03-18 13:26:35,804 - endee_assistant.main - INFO - Attempting Gemini...
+2026-03-18 13:26:35,805 - endee_assistant.gemini_client - INFO - Gemini client initialized successfully with gemini-2.0-flash
+2026-03-18 13:26:36,234 - endee_assistant.gemini_client - ERROR - Error generating with Gemini: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+Please retry in 25.850545455s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 25
+}
+]
+2026-03-18 13:26:36,236 - endee_assistant.main - ERROR - Gemini failed (Gemini returned empty response), trying Demo Mode...
+2026-03-18 13:26:36,237 - endee_assistant.main - INFO - Demo Mode response generated
+2026-03-18 13:29:54,397 - endee_assistant.endee_client - ERROR - Health check failed: All connection attempts failed
